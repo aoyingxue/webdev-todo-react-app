@@ -1,0 +1,29 @@
+.add-todo {
+  border-bottom: 1px solid #cccccc;
+  background-color: #ffffff;
+}
+
+.add-todo input {
+  padding: 20px;
+  margin: 0 0 0 0;
+  width: 100%;
+  border: 0;
+}
+
+/* checked */
+.checked {
+  text-decoration: line-through;
+}
+
+.todo-icon {
+  padding: 10px;
+}
+.todo-icon:hover {
+  cursor: pointer;
+}
+
+.button {
+  cursor: pointer;
+  padding-right: 12px;
+  padding-left: 20px;
+}

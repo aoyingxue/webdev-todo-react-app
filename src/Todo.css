@@ -1,0 +1,9 @@
+.todo-content li {
+  padding: 10px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.todo-content p {
+  margin-bottom: 0 !important;
+  padding-left: 10px;
+}
