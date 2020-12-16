@@ -4,7 +4,7 @@ import './App.css';
 import Todo from './Todo';
 import NewTodo from './NewTodo';
 
-const apiKey = '9a7a46-c55be6-55eb1f-861696-a468db';
+const apiKey = ''; //api key needed
 const apiUrl = 'https://cse204.work/todos';
 
 class App extends Component {
