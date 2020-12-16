@@ -7,3 +7,14 @@
   margin-bottom: 0 !important;
   padding-left: 10px;
 }
+/* checked */
+.checked {
+  text-decoration: line-through;
+}
+
+.todo-icon {
+  padding: 10px;
+}
+.todo-icon:hover {
+  cursor: pointer;
+}
