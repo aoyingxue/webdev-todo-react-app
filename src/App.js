@@ -141,6 +141,11 @@ class App extends Component {
   }
 
   render() {
+    // sort todos array 
+    this.state.todos.sort(function (a, b) {
+      return a.text.localeCompare(b.text); // alphabetically
+      // return parseFloat(b.created)-parseFloat(a.created); //sort descending by a number
+    });
     return (
       <div className="container">
         <div className="header">
@@ -169,11 +174,7 @@ class App extends Component {
     xhttp.onreadystatechange = function () {
       if (this.readyState === 4 && this.status === 200) {
         var todos = JSON.parse(this.responseText);
-        // sort todos array 
-        todos.sort(function (a, b) {
-          return a.text.localeCompare(b.text); // alphabetically
-          // return parseFloat(b.created)-parseFloat(a.created); //sort descending by a number
-        });
+        
         self.setState({ todos: todos });
       } else if (this.readyState === 4) {
         console.log(this.responseText);

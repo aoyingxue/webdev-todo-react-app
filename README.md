@@ -32,3 +32,12 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## npm ERR!
+Step 1: $ npm cache clean --force
+
+Step 2: Delete node_modules by $ rm -rf node_modules package-lock.json folder or delete it manually by going into the directory and right-click > delete / move to trash. Also, delete package-lock.json file too.
+
+Step 3: npm install
+
+To start again, $ npm start
